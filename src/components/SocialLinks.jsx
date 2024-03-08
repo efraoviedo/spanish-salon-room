@@ -15,7 +15,7 @@ const SocialLinks = () => {
           Facebook <GrFacebook size={40} />
         </>
       ),
-      href: "https://www.facebook.com",
+      href: "https://www.facebook.com/people/Peluquer%C3%ADa-a-domicilio/100028295666976/",
       style: "rounded-tr-md",
     },
     {
@@ -25,7 +25,7 @@ const SocialLinks = () => {
           Instagram <IoLogoInstagram size={40} />
         </>
       ),
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/efraoviedo/",
       style: "rounded-tr-md",
     },
     {
