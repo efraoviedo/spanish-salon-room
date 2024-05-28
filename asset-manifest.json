@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/spanish-salon-room/static/css/main.a14acce6.css",
-    "main.js": "/spanish-salon-room/static/js/main.f4e6abf6.js",
+    "main.css": "/spanish-salon-room/static/css/main.dbd7dc4c.css",
+    "main.js": "/spanish-salon-room/static/js/main.fc59fb51.js",
     "static/media/noviaRamo.png": "/spanish-salon-room/static/media/noviaRamo.b3ef18c61b0b06d16589.png",
     "static/media/rubia9.png": "/spanish-salon-room/static/media/rubia9.94d87168dce92c504c73.png",
     "static/media/rubiondas2.png": "/spanish-salon-room/static/media/rubiondas2.0f613c6acbe2a6b14e69.png",
@@ -28,11 +28,11 @@
     "static/media/rubia4.jpg": "/spanish-salon-room/static/media/rubia4.374bc08000159bd718b7.jpg",
     "static/media/rubia6.jpg": "/spanish-salon-room/static/media/rubia6.2cca47d864810e991ff7.jpg",
     "index.html": "/spanish-salon-room/index.html",
-    "main.a14acce6.css.map": "/spanish-salon-room/static/css/main.a14acce6.css.map",
-    "main.f4e6abf6.js.map": "/spanish-salon-room/static/js/main.f4e6abf6.js.map"
+    "main.dbd7dc4c.css.map": "/spanish-salon-room/static/css/main.dbd7dc4c.css.map",
+    "main.fc59fb51.js.map": "/spanish-salon-room/static/js/main.fc59fb51.js.map"
   },
   "entrypoints": [
-    "static/css/main.a14acce6.css",
-    "static/js/main.f4e6abf6.js"
+    "static/css/main.dbd7dc4c.css",
+    "static/js/main.fc59fb51.js"
   ]
 }
