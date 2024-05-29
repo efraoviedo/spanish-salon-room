@@ -1,22 +1,21 @@
 import React from "react";
-// import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-// import { BsFillPersonLinesFill } from "react-icons/bs";
 import { IoLogoInstagram } from "react-icons/io";
-import { GrFacebookOption } from "react-icons/gr";
+import { GrFacebook } from "react-icons/gr";
 import { FaWhatsappSquare } from "react-icons/fa";
 
-const SocialLinks = () => {
+export const SocialLinks = () => {
   const links = [
     {
       id: 1,
       child: (
         <>
-          Facebook <GrFacebookOption size={40} style={{ color: "white" }} />
+          Facebook <GrFacebook size={40} style={{ color: "white" }} />
         </>
       ),
-      href: "https://www.facebook.com/people/Peluquer%C3%ADa-a-domicilio/100028295666976/",
-      style: "rounded-tr-md bg-blue-900",
+      href:
+        "https://www.facebook.com/people/Peluquer%C3%ADa-a-domicilio/100028295666976/",
+      style: "rounded-tr-md",
     },
     {
       id: 2,
@@ -26,30 +25,28 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.instagram.com/efraoviedo/",
-      style: "rounded-tr-md bg-red-700",
+      style: "rounded-tr-md",
     },
     {
       id: 3,
       child: (
         <>
-          GMail <HiOutlineMail size={40} style={{ color: "white" }}   />
+          GMail <HiOutlineMail size={40} />
         </>
       ),
       href: "https://mail.google.com/mail",
       // href: "mailto:efraoviedo@gmail.com",
-      style: "rounded-tr-md bg-blue-900",
-
     },
     {
       id: 4,
       child: (
         <>
-          Whatsapp <FaWhatsappSquare size={40} style={{ color: "white" }}/>
+          Whatsapp <FaWhatsappSquare size={40} style={{ color: "white" }} />
         </>
       ),
       href: "https://web.whatsapp.com/send?phone=+57 320 2937958",
       // href: "whatsapp://send?text=Tu%20mensaje%20aquí&phone=numero",
-      style: "rounded-tr-md bg-green-600",
+      style: "rounded-br-md bg-green-600",
       // download: true,
     },
   ];
@@ -59,7 +56,7 @@ const SocialLinks = () => {
         <div
           key={id}
           className={
-            "flex justify-between items-center w-30 h-14 text-xs px-2 ml-[-100px] hover:ml-[-40px] hover:rounded-md duration-500 bg-black" +
+            "flex justify-between items-center w-30 h-14 text-xs px-2 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 bg-black" +
             " " +
             style
           }
@@ -76,17 +73,7 @@ const SocialLinks = () => {
           </a>
         </div>
       ))}
-
-     
-
-
-
-
     </div>
-  //  </div> 
-
-
+    //  </div>
   );
 };
-
-export default SocialLinks;

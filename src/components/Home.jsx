@@ -48,7 +48,7 @@ const Home = () => {
           <a
             href="https://wa.me/573202937958?text=Me%20gustaría%20hacer%20una%20cotización" // Reemplaza esto con tu número de WhatsApp
             className="shadow-lg mt-0 md:mt-26 w-44 h-12 md:w-40 inset-0 group text-white px-6 py-3 my-2
-              flex items-center text-right rounded-md bg-green-500 lg:mt-0 transition ease-in duration-700 cursor-pointer"
+              flex items-center text-right rounded-md bg-green-600 lg:mt-0 transition ease-in duration-700 cursor-pointer"
             target="_blank"
             rel="noopener noreferrer"
           >
